@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_ui_chizish/screens/home_screen.dart';
-
-import 'screens/home_screen.dart';
+import 'package:responsive_ui_chizish/checkout.dart';
+import 'package:responsive_ui_chizish/widgets/test.dart';
 
 void main() {
   runApp(const MainApp());
@@ -12,9 +11,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
-    );
+    return MaterialApp(debugShowCheckedModeBanner: false, home: TestTasks());
   }
 }
