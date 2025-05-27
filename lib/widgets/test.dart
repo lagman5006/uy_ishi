@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.cyan.shade300,
+      backgroundColor: Color(0xFF93C6E0),
       body: Center(
         child: SizedBox(
           width: 220.w,
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
                   width: 200.w,
                   height: 130.h,
                   decoration: BoxDecoration(
-                    color: Colors.teal.shade400,
+                    color:Color(0xFF3FA8B5),
                     borderRadius: BorderRadius.circular(15),
                     boxShadow: [
                       BoxShadow(
@@ -61,7 +61,7 @@ class MyApp extends StatelessWidget {
                   width: 200.w,
                   height: 150.h,
                   decoration: BoxDecoration(
-                    color: Colors.purple.shade300,
+                    color:Color(0xFF7366BD),
                     borderRadius: BorderRadius.circular(15),
                     boxShadow: [
                       BoxShadow(
@@ -90,7 +90,7 @@ class MyApp extends StatelessWidget {
                   width: 200.w,
                   height: 150.h,
                   decoration: BoxDecoration(
-                    color: Colors.lightBlue.shade100,
+                    color: Color(0xFFDFF3FF),
                     borderRadius: BorderRadius.circular(15),
                     boxShadow: [
                       BoxShadow(
